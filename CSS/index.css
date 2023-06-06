@@ -1,9 +1,10 @@
 form{
-    grid-area: 5/2;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    grid-area: 3/2;
+    display: grid;
+    grid-template-rows: 60px 1fr 60px 1fr 60px 1fr;
 }
+.fc{
+    grid-column: 1;
 }
 h1{
     font-size: 64px;
@@ -11,14 +12,24 @@ h1{
     grid-area: 1/2;
 }
 p{
-
+    font-size: 32px;
+    line-height: 1px;
+    text-align: center;
 }
 a{
     font-size: 32px;
-    grid-area: 7/2;
+    grid-area: 5/2;
     text-align: center;
     display:flex;
     justify-content: center;
     align-items: center;
     color: #ABDCFF;
+}
+input{
+    background: #595959;
+    border-radius: 30px;
+    border: 0;
+    text-align: center;
+    color: white;
+    font-size: 32px;
 }

@@ -13,12 +13,12 @@
 <div class="logindiv">
     <h1>RandomDB Login Page</h1>
     <form method="post" action="index.php" class=".form1">
-        <p>username</p>
-        <input type="text" name="User">
-        <p>password</p>
-        <input type="password" name="Pass">
+        <p class="fc">username</p>
+        <input type="text" name="User" class="fc">
+        <p class="fc">password</p>
+        <input type="password" name="Pass" class="fc">
         <p></p>
-        <input type="submit">
+        <input type="submit" class="fc">
     </form>
     <a href="createaccount.php">Create Account</a>
     <?php
