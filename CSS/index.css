@@ -1,0 +1,24 @@
+form{
+    grid-area: 5/2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+h1{
+    font-size: 64px;
+    text-align: center;
+    grid-area: 1/2;
+}
+p{
+
+}
+a{
+    font-size: 32px;
+    grid-area: 7/2;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #ABDCFF;
+}

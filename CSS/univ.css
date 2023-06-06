@@ -1,0 +1,21 @@
+:root{
+    --1c: #595959;
+    --2c: #898989;
+    --txt: #FFF;
+}
+body{
+    margin: 0;
+    border: 0;
+    background: var(--1c);
+    display: grid;
+    grid-template-columns: 25vw 50vw 25vw;
+    grid-template-rows: 10vh 80vh 10vh;
+    font-family: Arial;
+}
+.logindiv{
+    background: #898989;
+    grid-area: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 15px 1fr 15px 5fr 10px 1fr 1fr;
+    grid-template-columns: 12.5vw 25vw 12.5vw;
+}
